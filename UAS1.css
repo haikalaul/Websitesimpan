@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: white;
+}
+
+header, footer {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    background-color: orange    ;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+nav {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #444;
+  }
+
+  /* media query */
+  @media (max-widht: 480px) {
+    header {
+        font-size: 18px;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    main {
+        font-size: 80%;
+    }
+  }
+
+  .login-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: orange;
+    border: 1 px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0,1);
+  }
+
+  .H2 {
+    text-align: center;
+  }
+
+  .label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .Input[type="text"],
+  .Input[type="Pasword"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+
+  .button [type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .button [type="submit"] :hover {
+    background-color: #3e8e41;
+  }
+ 
+ 
